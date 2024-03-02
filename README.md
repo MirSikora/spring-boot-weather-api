@@ -39,12 +39,12 @@ dff519692024   spring-boot-weather-api   "java -jar /app.jar"   12 minutes ago  
 docker stop dff519692024
 ```
 
-### Remove docker container _ _(CONTAINER ID)_ _
+### Remove docker container 
 ```
 docker rm -f dff519692024
 ```
 
-### Remove docker image _ _(IMAGE ID)_ _
+### Remove docker image 
 ```
 docker rmi 4ca2025020c3
 ```
