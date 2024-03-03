@@ -1,7 +1,7 @@
 FROM eclipse-temurin:17-jre
-
-COPY ./target/WeatherApi-0.0.1.jar /app.jar
-
+WORKDIR app
+ARG JAR_FILE=target/*.jar
+COPY ${JAR_FILE} /app.jar
 ENTRYPOINT ["java","-jar","/app.jar"]
 
 
