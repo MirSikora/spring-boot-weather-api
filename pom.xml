@@ -78,7 +78,7 @@
                     <verbose>true</verbose>
                     <images>
                         <image>
-                            <name>${docker-image-prefix}-${project.artifactId}</name>
+                            <name>spring-boot-weather-api</name>
                         </image>
                     </images>
                 </configuration>
